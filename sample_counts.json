@@ -1,0 +1,10 @@
+{
+  "mode": "counts",
+  "states": ["A", "B", "C"],
+  "transitions": [
+    {"from": "A", "to": "A", "value": 2},
+    {"from": "A", "to": "B", "value": 3},
+    {"from": "B", "to": "C", "value": 4},
+    {"from": "C", "to": "A", "value": 1}
+  ]
+}
